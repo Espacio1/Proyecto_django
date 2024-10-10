@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehículos</title>
+</head>
+<body>
+    <form action="/Vehiculo/Add" method="post">
+        <label for="Marca">Marca: </label>
+        <select id="Marca" type="text" name="Marca" value="Ford">
+            <option>Fiat</option>
+            <option>Chevrolet</option>
+            <option>Ford</option>
+            <option>Toyota</option>
+        </select>
+
+        <label for="Modelo">Modelo: </label>
+        <input id="Modelo" type="text" name="Modelo">
+     
+        <label for="Serial_carrocería">Serial carrocería: </label>
+        <input id="Serial_carrocería" type="text" name="Serial_carrocería">
+       
+        <label for="Serial_motor">Serial motor: </label>
+        <input id="Serial_motor" type="text" name="Serial_motor">
+    
+        <label for="Categoría">Categoría: </label>
+        <select id="Categoría" type="text" name="Categoría" value="Particular">
+            <option>Particular</option>
+            <option>Transporte</option>
+            <option>Carga</option>
+        </select>
+    
+        <label for="Precio">Precio: </label>
+        <input id="Precio" type="number" name="Precio">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
